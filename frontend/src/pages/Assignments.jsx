@@ -13,7 +13,7 @@ const Assignments = () => {
   useEffect(() => {
     const fetchAssignments = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/api/assignments"); // API call
+        const response = await axios.get("http://localhost:8000/api/assignments"); 
         setAssignments(response.data); 
       } catch (err) {
         setError(err.message); 

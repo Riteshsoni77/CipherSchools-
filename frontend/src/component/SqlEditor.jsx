@@ -10,7 +10,6 @@ const SqlEditor = ({ value, onChange, assignment = { id: "123", question: "What 
   }
 
 
-
   return (
     <div className="sql-editor">
            

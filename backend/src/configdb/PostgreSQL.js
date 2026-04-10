@@ -5,8 +5,6 @@ dotenv.config();
 
 const config = {
   user: "avnadmin",
-
-
   password: process.env.DB_PASSWORD,
   host: "pg-3b8640b5-riteshsoni1138-a574.h.aivencloud.com",
   port: 17295,
@@ -62,5 +60,7 @@ const connectToDatabase = () => {
 };
 
 
+
 export { client, connectToDatabase };
+
 
